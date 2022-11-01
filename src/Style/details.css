@@ -1,0 +1,313 @@
+.details-container {
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 0px 80px 40px 80px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.details-header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.details-image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.details-btn-container {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.details-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.pokemon-details-image {
+    width: 85%;
+}
+
+.details-heart-btn {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+    padding: 4px;
+    cursor: pointer;
+}
+
+/*Details DATA */
+.details-stats-flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-data-type {
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px;
+    width: 70px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+.details-stats-flex :nth-child(1) {
+    margin-right: auto;
+}
+
+.details-stats-map {
+    display: flex;
+}
+
+.details-data-container h2 {
+    padding-bottom: 10px;
+}
+
+.details-data {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 25px 30px;
+    background-color: #f7f6f0;
+}
+
+.details-data hr {
+    opacity: 0.2;
+}
+
+.details-data h2 {
+    margin-bottom: 20px;
+}
+
+.details-data div {
+    padding: 10px;
+}
+
+.details-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-stats h2 {
+    padding-bottom: 10px;
+}
+
+.details-bar {
+    height: auto;
+    background-color: #f7f6f0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 25px 30px;
+
+}
+
+.details-bar .bar {
+    margin: 20px 0;
+}
+
+.details-bar .bar:first-child {
+    margin-top: 0px;
+}
+
+.details-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.details-bar .bar .info span {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.details-bar .bar .progress-line {
+    position: relative;
+    height: 10px;
+    width: 100%;
+    background: #f0f0f0;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+        0px 1px rgba(255, 255, 255, 0.8);
+    animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.bar .progress-line span {
+    height: 100%;
+    width: 80%;
+    background: #6665ee;
+    position: absolute;
+    border-radius: 10px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.weakness-type-container h2 {
+    padding-bottom: 10px;
+}
+
+
+.weakness-type-grid {
+    padding: 0px 20px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat( 5, 1fr);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 24px 30px;
+    background-color: #f7f6f0;
+}
+
+.weakness-type {
+    color: white;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 7px;
+    width: 70px;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 70%);
+}
+
+.weakness-type-result {
+    color: white;
+    margin-top: 1px;
+    border-radius: 10px;
+    padding: 7px;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.fire {
+    background-color: #FF4422;
+}
+
+.grass {
+    background-color: #77cc55;
+}
+
+.electric {
+    background-color: #ffcc33;
+}
+
+.water {
+    background-color: #3399FF;
+}
+
+.ground {
+    background-color: #ddbb55;
+}
+
+.fairy {
+    background-color: #ee99ee;
+}
+
+.poison {
+    background-color: #aa5599;
+}
+
+.bug {
+    background-color: #aabb22;
+}
+
+.dragon {
+    background-color: #7766ee;
+}
+
+.psychic {
+    background-color: #ff5599;
+}
+
+.flying {
+    background-color: #8899ff;
+}
+
+.fighting {
+    background-color: #bb5544;
+}
+
+.normal {
+    background-color: #AAAA99;
+}
+
+.ice {
+    background-color: #66ccff;
+}
+
+.rock {
+    background-color: #bbaa66;
+}
+
+.ghost {
+    background-color: #6666bb;
+}
+
+.dark {
+    background-color: #775544;
+}
+
+.steel {
+    background-color: #aaaabb;
+}
+
+
+@media (max-width: 1300px) {
+    .details-container {
+        border-radius: 20px;
+        padding: 50px;
+        margin: 0px 80px 40px 80px;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+
+}
+
+@media (max-width: 800px) {
+    .weakness-type-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .weakness-type-grid {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}

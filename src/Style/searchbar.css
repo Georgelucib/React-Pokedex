@@ -1,0 +1,44 @@
+.searchbar-container {
+    display: flex;
+    margin: 0px auto;
+    padding: 20px 20px;
+    align-items: center;
+  }
+  
+  .searchbar {
+    margin-right: 20px;
+    max-height: 79px;
+    overflow: hidden;
+  }
+  
+  .searchbar input {
+    padding: 10px;
+    border-radius: 50px;
+  }
+  
+  .searchbar-btn button {
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #365C9D;
+    color: white;
+    padding: 10px 12px;
+  }
+  
+  .suggestion {
+    background-color: white;
+    position: relative;
+    border-radius: 50px;
+    width: 176px;
+    padding: 9px;
+    cursor: pointer;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  .suggestion:hover {
+    background-color: #365C9D;
+    color: #fff;
+  }

@@ -1,0 +1,56 @@
+nav {
+    
+    color: white;
+    height: 70px;
+    background-color: #365C9D;
+    padding: 0 36px 0 36px;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-fixed {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-img {
+    width: 125px;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+}
+
+.favorite button {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.navbar-button {
+    background-color: #365C9D;
+    color: white;
+    border: 1px solid white;
+}
+
+.navbar-button:hover {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
