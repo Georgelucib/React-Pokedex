@@ -8,6 +8,7 @@ import Details from "./Pages/Details"
 function App() {
   return (
     <div className="App">
+      <p>oi!</p>
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
