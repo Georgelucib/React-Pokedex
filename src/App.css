@@ -10,6 +10,7 @@
 }
 
 body {
+  max-width: 1800px;
   background-color: #F9C61B;
   color: #211E1F;
   min-height: 100vh;
