@@ -9,6 +9,7 @@
     grid-row: auto auto;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
+    max-width: 1800px;
 }
 
 .details-header {
