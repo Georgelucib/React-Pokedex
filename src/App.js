@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import React from 'react'
 
 import Home from './Pages/Home'
@@ -8,7 +8,6 @@ import Details from "./Pages/Details"
 function App() {
   return (
     <div className="App">
-      <p>oi!</p>
       <Router>
         <Routes>
           <Route exact path="/" element={<Home />} />
