@@ -10,9 +10,9 @@ const Footer = (props) => {
             <div className="footer-content">
 
                 <ul className="socials">
-                    <li><a href="https://www.linkedin.com/in/georgeluciano2599/"><BsLinkedin className="icon" /></a></li>
-                    <li><a href="https://github.com/Georgelucib"><BsGithub className="icon" /></a></li>
-                    <li><a href="https://twitter.com/Blurryluck"><BsTwitter className="icon" /></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/georgeluciano2599/"><BsLinkedin className="icon"  /></a></li>
+                    <li><a target="_blank" href="https://github.com/Georgelucib"><BsGithub className="icon" /></a></li>
+                    <li><a target="_blank" href="https://twitter.com/Blurryluck"><BsTwitter className="icon" /></a></li>
                 </ul>
             </div>
             <div className="footer-bottom">

@@ -23,7 +23,7 @@ const Navbar = (props) => {
       <div className="navbar-container">
         <Link  className="navbar-link favorite btn" to ="/Favorites"><button className="navbar-button"> Favorited {favoritePokemons.length}</button> </Link>
         <Link to="/"><img alt="Pokeapi-logo" src={logoImg} className="navbar-img" /></Link>
-        <Link className="navbar-link" to ="/"> <button className="navbar-button">About me</button></Link>
+        <a className="navbar-link" href="https://georgelucib.github.io/Portfolio-George/" target="_blank" > <button className="navbar-button">About me</button></a>
       </div>
     </nav>
   );
